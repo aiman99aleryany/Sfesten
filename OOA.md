@@ -62,9 +62,9 @@ part 1
 <ul>
     <li>Project Structure.</li>
     <li>Creating the data types.</li>
-    <li>Creating the User Interface.</li>
     <li>Creating the mechanism between the machine and the human.</li>
     <li>Creating the Qr generators.</li>
+<li>Creating the User Interface.</li>
     <li>Creating the server-side (Django)</li>
 </ul>
 <br>
