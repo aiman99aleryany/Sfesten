@@ -6,11 +6,12 @@
 <ol>
 part 1
 <ul>
+    <li> Create the flow chart</li>
     <li> Identify the type of the information that needs to be converted. </li>
     <li> Take the information we need in order to create the QR code. 
 </li>
     <li> Create the QR code. </li>
-    <li>Send the QR code the requester by email. </li>
+    <li>Send the QR code to the requester by email. </li>
     <li>Save the QR code at the database along with the email. </li>
 </ul>
 <br>
