@@ -32,20 +32,20 @@
 
 <ul>
 
-<li>Choosing the data type from the user, what is the data type that will be converted to qr code.</li>
+<li>Choosing the data type from the user, what is the data type that will be converted to a qr code.</li>
 
-<li>The Requirements will change according to the data type chosen.</li>
+<li>The Requirements will change according to the data type that has been chosen.</li>
 
-<li>Fetching the Requirements/data from the user by pointing the path whether it's a vcard, pdf or image etc. Or you can enter the data manually.</li>
+<li>Fetching the Requirements/data from the user by pointing the path to the data whether it's a vcard, pdf or image etc. Or you can enter the data manually.</li>
 
-<li>Compare if all the provided data fits the chosen data type, by accessing the data type models. and if it fits will continue to the next stage.</li>
+<li>Compare if all the provided data fits the chosen data type, by accessing the data type models. and if it fits the program will continue to the next stage.</li>
 
 <li>Creating the QR code.</li>
 
 <li>Show the QR code to the user and deliver it in JPG form.</li>
 
 <li>Add a foreign key to the QR code to be added to the database.</li>
-
+<li>Add the QR code to the database.</li>
 <li>The database will be transferred to the django server. </li>
 
 <li>You will be able to search for the qr code by the foreign key on the server.</li>
@@ -60,19 +60,17 @@
 <ol>
 part 1
 <ul>
-    <li> Create the flow chart</li>
-    <li> Identify the type of the information that needs to be converted. </li>
-    <li> Take the information we need in order to create the QR code. 
-</li>
-    <li> Create the QR code. </li>
-    <li>Send the QR code to the requester by email. </li>
-    <li>Save the QR code at the database along with the email. </li>
+    <li>Project Structure.</li>
+    <li>Creating the data types.</li>
+    <li>Creating the User Interface.</li>
+    <li>Creating the mechanism between the machine and the human.</li>
+    <li>Creating the Qr generators.</li>
+    <li>Creating the server-side (Django)</li>
 </ul>
 <br>
 part 2
 <ul>
-    <li> You should be able to read the QR code. </li>
-    <li> You should have an option to encrypt the QR code. </li>
+    <li> You should be able to read the QR code with some sort of library or computer vision, just figure it out.</li>
 
 </ul>
 </ol>
